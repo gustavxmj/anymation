@@ -1,5 +1,5 @@
-function _any () {
-    _any2 = sprites.create(img`
+function any2 () {
+    _any = sprites.create(img`
         ................................
         ................................
         ................................
@@ -34,7 +34,7 @@ function _any () {
         ................................
         `, SpriteKind.Player)
     animation.runImageAnimation(
-    _any2,
+    _any,
     [img`
         99999999999999999999999999999999
         99999999999999999999999999999999
@@ -304,6 +304,6 @@ function _any () {
     true
     )
 }
-let _any2: Sprite = null
+let _any: Sprite = null
 tiles.setCurrentTilemap(tilemap`level1`)
 _any()
